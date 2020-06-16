@@ -1,0 +1,61 @@
+.title{
+    text-align: center;
+    font-family: 'Suez One', serif;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.textareaField{
+    display: flex;
+    flex-direction: column;
+}
+label{
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.formField{
+    padding: 1%;
+}
+.formFieldsContainer{
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    padding: 2%;
+}
+input, textarea, select{
+    border-radius: 3px;
+    border: 1px solid #949494;
+}
+select{
+    background: transparent;
+    width: 50%;
+}
+.gender{
+    display: flex;
+}
+.genderLabel{
+    justify-content: center;
+}
+.btnContainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+button{
+    background-color:#b300b3;
+    border-radius: 3px;
+    outline: none;
+    border: none;
+    padding: 3%;
+    width: 70%;
+    color: white;
+    font-size: 18px;
+}
+select{
+    background: transparent;
+}
